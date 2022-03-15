@@ -1,0 +1,17 @@
+{
+  "name": "ExamplePlugin",
+  "version-string": "1.0.0",
+  "description": "Example Plugin for CommonLib PO3 Fork",
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": [
+    "boost-stl-interfaces",
+    "simpleini",
+    "spdlog",
+    "xbyak"
+  ],
+  "builtin-baseline":"bba8794b82a0f44b8709f294850a2c8e96b61415",
+  "overrides": [
+    { "name": "fmt", "version": "8.0.1" }
+  ]
+}
