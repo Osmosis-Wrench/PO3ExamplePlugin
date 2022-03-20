@@ -8,7 +8,9 @@
     "boost-stl-interfaces",
     "simpleini",
     "spdlog",
-    "xbyak"
+    "xbyak",
+	  "rsm-binary-io"
+  ],
   ],
   "builtin-baseline":"bba8794b82a0f44b8709f294850a2c8e96b61415",
   "overrides": [
