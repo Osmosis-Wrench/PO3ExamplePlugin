@@ -177,7 +177,7 @@ add_library(
 	${CMAKE_CURRENT_BINARY_DIR}/include/Version.h
 	${CMAKE_CURRENT_BINARY_DIR}/version.rc
 	.clang-format
-	)
+	 "src/events.h")
 
 target_compile_features(
 	${PROJECT_NAME}
