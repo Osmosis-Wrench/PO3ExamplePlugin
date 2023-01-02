@@ -1,21 +1,14 @@
 {
-  "name": "exampleplugin",
+  "name": "oxygen-meter2",
   "version-string": "1.3.0",
-  "description": "exampleplugin for po3 fork",
+  "description": "Oxygen Meter 2",
   "homepage": "",
   "license": "MIT",
   "dependencies": [
     "boost-stl-interfaces",
-    "simpleini",
+    "rsm-binary-io",
+    "clib-util",
     "spdlog",
-    "xbyak",
-    "rsm-binary-io"
-  ],
-  "builtin-baseline": "c06dfc0ac2649834da8b9f3092b907fb037accab",
-  "overrides": [
-    {
-      "name": "fmt",
-      "version": "8.0.1"
-    }
+    "xbyak"
   ]
 }

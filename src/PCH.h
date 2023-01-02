@@ -6,18 +6,24 @@
 #include "RE/Skyrim.h"
 #include "SKSE/SKSE.h"
 
+#include <ClibUtil/simpleINI.hpp>
+#include <ClibUtil/numeric.hpp>
 #include <spdlog/sinks/basic_file_sink.h>
 #include <xbyak/xbyak.h>
 
 #define DLLEXPORT __declspec(dllexport)
 
 namespace logger = SKSE::log;
-namespace string = SKSE::stl::string;
+namespace ini = clib_util::ini;
+namespace string = clib_util::string;
+namespace numeric = clib_util::numeric;
 using namespace std::literals;
 
 namespace stl
 {
-	template <class F, class T>
+	using namespace SKSE::stl;
+
+    template <class F, class T>
 	void write_vfunc()
 	{
 		REL::Relocation<std::uintptr_t> vtbl{ F::VTABLE[0] };
