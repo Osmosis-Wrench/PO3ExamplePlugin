@@ -1,6 +1,6 @@
-# Oxygen Meter
+# Po3 Commonlib Fork Example Plugin
 
-SKSE plugin that repurposes the enchantment charge meter for an oxygen meter when underwater
+SKSE plugin template for making plugins using po3's commonlib fork.
 
 ## Requirements
 * [CMake](https://cmake.org/)
